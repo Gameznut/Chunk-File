@@ -1,0 +1,10 @@
+{% extends 'base.html' %} 
+{% block home %}
+<h3>
+  {% if message %}
+    Welcome
+  {% endif %}
+  Fancy display heading {{username}}
+  <small class="text-muted">With faded secondary text</small>
+</h3>
+{% endblock %}
